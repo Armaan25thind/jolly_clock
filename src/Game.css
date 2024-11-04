@@ -1,0 +1,31 @@
+.game {
+  text-align: center;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.board {
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
